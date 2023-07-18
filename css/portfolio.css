@@ -180,3 +180,54 @@ footer{
  color: #757575;
  border-radius: 5px;
 }
+/*Responsive styles*/
+/*Mobile Device*/
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .skills-container, .resume-container, footer,.about-info-container,.banner,nav > ul{
+        flex-direction: column;
+    }
+    nav > ul{
+        gap: 10px;
+    }
+    #what-i-do-description{
+        padding: 20px;
+    }
+    .footer,.about{
+     padding: 10px;
+    }
+    .footer-column{
+     width: 100%;
+     
+    }
+    .social-links{
+        display: flex;
+       margin-left: 20px;
+
+    }
+    .contact input[type="text"] ,.contact input[type="email"], textarea{
+        margin-bottom: 25px;
+        padding: 18px 35px;
+        border: 0;
+        width: 70%;
+        background-color: #FFF;
+        color: #757575;
+        border-radius: 5px;
+       }
+       .header{
+        background-image: none;
+       }
+       nav{
+        flex-direction: column;
+       }
+       .banner .profile-pic{
+        margin-top: 20px;
+        width: 100%;
+       
+       }
+       .banner{
+        padding: 10px 10px 0 10px;
+       }
+}
